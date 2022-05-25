@@ -9,10 +9,12 @@ defmodule SumList do
   ## Examples
 
       iex> SumList.hello()
-      :world
+      "world"
 
   """
   def hello do
-    :world
+    "world"
   end
+
+  def sumNumbers(number1, number2), do: number1 + number2
 end
