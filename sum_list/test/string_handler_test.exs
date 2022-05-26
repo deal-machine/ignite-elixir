@@ -1,6 +1,5 @@
 defmodule StringHandlerTest do
   use ExUnit.Case
-  doctest StringHandler
 
   test "return string in downcase" do
     assert StringHandler.to_down_case("TEST") == "test"
