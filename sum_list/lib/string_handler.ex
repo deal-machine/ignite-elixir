@@ -1,4 +1,4 @@
 defmodule StringHandler do
-  def toDownCase(string), do: String.downcase(string)
-  def toUpperCase(string), do: String.upcase(string)
+  def to_down_case(string), do: String.downcase(string)
+  def to_upper_case(string), do: String.upcase(string)
 end
