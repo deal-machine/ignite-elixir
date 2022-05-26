@@ -1,7 +1,10 @@
 defmodule SumList do
-  def hello do
-    "world"
-  end
+  def execute(list), do: sum(list, 0)
 
-  def sum_numbers(number1, number2), do: number1 + number2
+  defp sum([], acc), do: acc
+
+  defp sum([head | tail], acc) do
+    acc = acc + head
+    sum(tail, acc)
+  end
 end
