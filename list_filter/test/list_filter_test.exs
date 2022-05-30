@@ -1,8 +1,7 @@
 defmodule ListFilterTest do
   use ExUnit.Case
-  doctest ListFilter
 
   test "greets the world" do
-    assert ListFilter.hello() == :world
+    assert ListFilter.call([1, 2, 3, 4, 5, 6]) == 3
   end
 end
