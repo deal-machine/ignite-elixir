@@ -1,1 +1,2 @@
-goodbye world
+you need to remove the read permission
+'chmod -r blockedFile'
