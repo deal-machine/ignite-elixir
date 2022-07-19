@@ -12,4 +12,8 @@ defmodule HandleFilesTest do
   test "format eacces error" do
     assert HandleFiles.read("blockedFile") == "Arquivo sem permissão"
   end
+
+  test "format error" do
+    assert HandleFiles.read("lib/") == "Erro desconhecido"
+  end
 end
